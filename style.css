@@ -1,0 +1,1141 @@
+.sk-ab {
+	position: relative;
+	overflow: hidden;
+}
+
+.sk-asset {
+	position: absolute;
+	background-repeat: no-repeat;
+}
+
+/* Specific to Desktop HD */
+.sk-ab.sk-Desktop-HD {
+	width: 100%;
+	height: auto;
+}
+/* Mask: */
+
+body, p, a, h1, h2, h3, h4, h5 {
+	color: #fff;
+	background-color: #15161C;
+	font-family: Oswald;
+	line-height: 1.1em;
+	margin: 0 5% 0 5%;
+}
+
+a {
+	text-decoration: none;
+	color: gray;
+	float: left;
+	font-size: 16px;
+	margin: 2%;
+}
+
+a:hover {
+	color: rgb(200,180,200);
+}
+
+button {
+	border: none;
+	width: 100%;
+}
+
+button:hover {
+ 	background-color: rgba(200,180,200,.5);
+}
+
+ul {
+	list-style-type: none;
+	color: #FFFFFF;
+	float: right;
+	font-family: Oswald-Regular;
+	font-size: 30px;
+	width: 30%;
+	display: inline-flex;
+	margin: 2%;
+	padding-right: 5%;
+}
+
+li {
+	float: right;
+	width: 100%;
+	line-height: 1em;
+}
+
+#header {
+	float: left;
+	background: url(images/gavin-pro-pic.jpg) no-repeat center center;
+	background-size: cover;
+	background-color: rgba(55,0,19,0.25);
+	width: 100%;
+	height: 620px;
+}
+
+body.landing {
+	background: url(images/GD-cover.jpg) no-repeat center center;
+	background-size: cover;
+	width: 100%;
+	min-height: 633px;
+	margin: 0;
+	background-blend-mode: lighten;
+
+}
+
+.landing h1 {
+	color: #000000;
+}
+
+header.landing {
+	margin-top: 15%;
+}
+
+.black {
+	width: 100%;
+	padding: 0 20%;
+	text-align: center;
+}
+
+h1.black {
+	padding: 0;
+	width: 90%;
+	color: #FFFFFF;
+}
+
+
+.clothes-back {
+	width: auto;
+	float: left;
+	color: rgba(138, 116, 193, 63);
+	margin: 5%;
+}
+
+.clothes-back a {
+	font-size: 36px;
+	float: left;
+	color: #ffffff;
+	background-color: initial;
+	padding: 2%;
+	margin: 0;
+}
+
+#landing-button a {
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+#items {
+	float: left;
+	height: auto;
+	width: 90%;
+	margin: 0 5% 5% 5%;
+}
+
+.cover {
+	background: url(images/GD-cover.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.woods {
+	background: url(images/thomas-kelley-64329.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.luke {
+	background: url(images/luke-matthews-196578.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.michael {
+	background: url(images/michael-depetris-313703.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.tim {
+	background: url(images/tim-easley-317922.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.new-items {
+	padding: 2% 0;
+}
+
+#all {
+	padding: 2% 0;
+	display: none;
+	border-top: 8px solid #FFFFFF;
+}
+
+.page-title, .page-title h1 {
+	float: left;
+	font-family: OswaldStencil-Bold;
+	font-size: 64px;
+	color: #FFFFFF;
+	letter-spacing: 8.89px;
+	margin: 5%;
+	width: 80%;
+	background: none;
+}
+
+.clothes, .clothes h1 {
+	width: 100%;
+}
+
+#third-section {
+	text-align: center;
+	float: left;
+	height: auto;
+	border-top: 8px solid #FFFFFF;
+	border-bottom: 8px solid #FFFFFF;
+}
+
+#third-section img {
+	float: left; 
+	width: 250px;
+	padding: 0;
+	height: 300px;
+	background: url(images/about-pic.jpg) no-repeat center center;
+	background-size: auto 100%;
+	margin: 8%;
+}
+
+/* Mask: */
+border: 4px solid #FFFFFF;
+
+.nav {
+	float: right;
+	font-family: Oswald-Regular;
+	font-size: 36px;
+	color: #FFFFFF;
+	letter-spacing: 5px;
+}
+
+.nav a {
+	font-family: Oswald-Regular;
+	font-size: 22px;
+	color: #FFFFFF;
+	letter-spacing: 2px;
+	background-color: initial;
+	width: auto;
+}
+
+.logo {
+	float: left;
+	background
+}
+
+
+.poster {
+	float: left;
+	background-color: rgba(199,199,199,.44);
+	min-height: 200px;
+	width: 26%;
+	min-width: 230px;
+	margin: 2%;
+}
+
+
+/* COMING SOON WE WILL: */
+	font-family: Oswald-Regular;
+	font-size: 36px;
+	color: #FFFFFF;
+	letter-spacing: 0.88px;
+
+
+#footer {
+	float: left;
+	position: relative;
+	text-align: center;
+	padding: 0 .2em .2em .2em;
+	width: 100%;
+	height: 10%;
+}
+
+footer h2 {
+	float: left;
+	font-family: Oswald-Regular;
+	font-size: 48px;
+	color: #FFFFFF;
+	letter-spacing: 1.17px;
+	width: 100%;
+}
+
+.left-footer li {
+	float: left;
+	font-family: Oswald-Regular;
+	font-size: 20px;
+	color: #FFFFFF;
+	letter-spacing: 1.17px;
+	width: 100%;
+	padding: 0 5%;
+}
+
+.left-footer ul {
+	display: table;
+	float: left;
+}
+
+footer h3 {
+	float: left;
+	font-family: Oswald-Regular;
+	font-size: 28px;
+	color: #FFFFFF;
+	letter-spacing: 2.11px;
+}
+
+footer p {
+	float: left;
+	font-family: Oswald-Regular;
+	font-size: 18px;
+	color: #FFFFFF;
+	letter-spacing: 1.41px;
+	padding-top: 5%;
+}
+
+
+/* BACK TO STORE: */
+	font-family: Oswald-Regular;
+	font-size: 36px;
+	color: #FFFFFF;
+	letter-spacing: 1.17px;
+
+
+.stock {
+	font-family: Oswald-Regular;
+	font-size: 36px;
+	color: #FFFFFF;
+	letter-spacing: 0.88px;
+}
+
+/* OUT OF STOCK: */
+	font-family: Oswald-Regular;
+	font-size: 36px;
+	color: #FFFFFF;
+	letter-spacing: 0.88px;
+
+/* Rectangle 3: */
+background: rgba(138,116,193,0.63);
+
+
+/* Rectangle 3 Copy: */
+background: rgba(138,116,193,0.63);
+
+
+/* CHECK OUT: */
+	font-family: Oswald-Regular;
+	font-size: 36px;
+	color: #FFFFFF;
+	letter-spacing: 0.88px;
+
+
+/* Line 2: */
+background: #FFFFFF;
+border: 5px solid #FFFFFF;
+
+
+/* Line 2 Copy: */
+background: #FFFFFF;
+border: 5px solid #FFFFFF;
+
+
+/* Line 3: */
+border: 2px solid #979797;
+
+
+/* KEEP SHOPPING: */
+	font-family: Oswald-Regular;
+	font-size: 36px;
+	color: #FFFFFF;
+	letter-spacing: 0.88px;
+
+
+
+/*HOME PAGE STYLE BELOW THIS LINE - DELETE REPEATED*/
+
+/* Mask: */
+
+
+/* gavin pro pic: */
+color: rgba(55,0,19,0.25);
+
+
+/* Mask: */
+border: 4px solid #FFFFFF;
+
+
+.details, .shop-now {
+	background: rgba(55,0,19,0.25);
+	color: #FFFFFF;
+}
+
+button.shop-now{
+	float: left;
+	background-color: rgba(199,199,199,.44);
+	border: none;
+	margin: 0 5% 25% 10%;
+	width: auto;
+}
+
+.shop-now a {
+	background-color: none;
+	float: left;
+	font-family: Oswald-Regular;
+	font-size: 48px;
+	color: #FFFFFF;
+	letter-spacing: 1.17px;
+	background-color: initial;
+	width: 100%;
+}
+
+footer div {
+	margin: 3%;
+	width: auto;
+}
+
+.right-footer {
+	float: right;
+	width: 60%;
+}
+
+.left-footer {
+	float: left;
+	width: 20%;
+}
+
+
+.about {
+	float: right;
+	font-family: Oswald-Regular;
+	font-size: 48px;
+	color: #FFFFFF;
+	letter-spacing: 1.17px;
+	width: 50%;
+	padding: 5%;
+}
+
+.about p {
+	font-size: 18px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	line-height: 1.3em;
+}
+
+
+#items h3 {
+	float: left;
+	font-family: Oswald-Regular;
+	font-size: 42px;
+	color: #FFFFFF;
+	letter-spacing: 1.17px;
+	text-align: center;
+	width: 100%;
+	margin: 0;
+}
+
+.new-items h3 {
+ 	float: left;
+	font-family: Oswald-Regular;
+	font-size: 42px;
+	color: #FFFFFF;
+	letter-spacing: 1.17px;
+	text-align: center;
+	width: 100%;
+	height: auto;
+	margin: 0;
+ }
+
+.see-all, .hide-all {
+	font-family: Oswald-Regular;
+	font-size: 36px;
+	color: #FFFFFF;
+	background-color: rgba(199,199,199,.44);
+	letter-spacing: 0.88px;
+	width: 27%;
+	text-align: center;
+	margin: 0 35%;
+}
+
+.hide-all {
+	display: none;
+}
+
+.down-arrow {
+	background-color: initial;
+	float: right;
+	color: #FFFFFF;
+	border-radius: 40%;
+	padding: 5%;
+	margin-right: 5%;
+}
+
+.details {
+	float: left;
+	margin-top: 340px;
+	height: 60px;
+	font-family: Oswald-Regular;
+	font-size: 18px;
+	font-weight: 300;
+	letter-spacing: 1.17px;
+	width: 100%;
+	opacity: .7;
+	background: linear-gradient(#0E3342, #383333);
+}
+
+.stock, .price {
+	float: left;
+	margin: 0;
+	padding: 2%;
+	top: 0;
+	background-color: initial;
+}
+
+.info {
+	width: 100px;
+	height: 20px;
+	display: table;
+}
+
+.add-to-cart, .remove {
+	width: 50%;
+	float: right;
+	height: auto;
+	font-family: Oswald-Regular;
+	font-size: 18px;
+	color: #FFFFFF;
+	letter-spacing: 1.17px;
+	border: none;
+	margin-top: 5%;
+	background-color: initial;
+}
+
+.back a {
+	float: right;
+}
+
+
+.cart {
+	width: 100%;
+	float: left;
+	margin: 5%;
+	padding: 0;
+}
+
+.cart a {
+	color: #FFFFFF;
+	font-family: Oswald-Regular;
+	font-size: 32px;
+	color: #FFFFFF;
+	background-color: rgba(138, 116, 193, 63);
+	letter-spacing: 0.88px;
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	padding: 5%;
+	height: auto;
+}
+
+.buttons .back {
+	float: right;
+	width: 100%;
+	height: auto;
+}
+
+.buttons {
+	padding: 0;
+	margin: 0;
+	width: 49%;
+	float: left;
+}
+
+
+.buttons:nth-child(1) {
+	border-right: 2px solid gray;
+}
+
+.purple-buttons {
+	margin: 0;
+	width: 55%;
+	float: left;
+	margin-bottom: 2%;
+}
+
+div.black {
+	width: 80%;
+	padding: 0;
+	margin: 0 10%;
+	text-align: center;
+}
+
+.arrow {
+	float: left;
+	width: 22%;
+	margin: 4% 0;
+}
+
+.rotate {
+	transform: rotate(180deg);
+}
+
+
+.remove {
+	width: 100%;
+}
+
+/* Line: */
+border: 9px solid #FFFFFF;
+
+
+/* Line Copy: */
+border: 9px solid #FFFFFF;
+}
+@-ms-viewport {
+  width: device-width;
+
+}
+
+@media screen and (min-width: 616px) and (max-width: 925px){
+	#third-section img {
+		float: left;
+		width: 80%;
+		padding: 5%;
+		margin: 0 7%;
+		height: 300px;
+	}
+
+
+	.about {
+		float: left;
+		font-family: Oswald-Regular;
+		font-size: 48px;
+		color: #FFFFFF;
+		letter-spacing: 1.17px;
+		width: 90%;
+		padding: 5%;
+	}
+
+	.about p {
+		font-size: 18px;
+		font-weight: 300;
+		letter-spacing: 2px;
+		line-height: 1.3em;
+	}
+}
+@media screen and (min-width: 320px) and (max-width: 616px) {
+
+body {
+		margin: 0;
+	}
+
+	ul {
+		display: table;
+		width: 90%;
+		border-bottom: 2px solid white;
+	}
+
+	.page-title {
+		width: 90%;
+		margin: 5%;
+	}
+
+	.page-title h1 {
+		font-size: 24px;
+		text-align: center;
+		width: 100%;
+	}
+
+	h1.black {
+		font-size: 24px;
+		line-height: 1.5em;
+		margin: 5%;
+	}
+
+	#header {
+		width: 100%;
+		height: 280px;
+	}
+
+	.shop-now {
+		display: none;
+	}
+
+	.nav {
+		width: 100%;
+		display: table;
+		text-align: center;
+	}
+
+	.nav a {
+		width: 100%;
+		color: #FFFFFF;
+		font-size: 14px;
+	}
+
+	#third-section img {
+		float: left;
+		width: 80%;
+		padding: 5%;
+		margin: 0 7%;
+		height: 300px;
+	}
+
+	.left-footer h2 {
+		font-size: 22px;
+	}
+
+
+	.about {
+		float: left;
+		font-family: Oswald-Regular;
+		font-size: 48px;
+		color: #FFFFFF;
+		letter-spacing: 1.17px;
+		width: 90%;
+		padding: 5%;
+	}
+
+	.about p {
+		font-size: 18px;
+		font-weight: 300;
+		letter-spacing: 2px;
+		line-height: 1.3em;
+	}
+
+	button.see-all {
+		margin: 0 10%;
+		width: 80%;
+		display: none;
+	}
+
+	#all {
+		float: left;
+		display: block;
+		width: 100%;
+		padding: 0 5%;
+	}
+
+	.shop-now a {
+		background-color: none;
+		float: left;
+		font-family: Oswald-Regular;
+		font-size: 24px;
+		color: #FFFFFF;
+		letter-spacing: 1.17px;
+		background-color: initial;
+		width: 100%;
+	}
+
+	.poster {
+		width: 100%;
+		padding: 0;
+	}
+
+	.new-items{
+		width: 100%;
+		padding: 0 5%;
+	}
+
+	#items, #all {
+		margin: 5% 0 0 0;
+	}
+
+	#all {
+		padding-top: 5%;
+	}
+
+	#items h3 {
+		font-size: 24px;
+	}
+
+	header.landing {
+		margin-top: 40%;
+	}
+
+	.cover {
+	background-size: auto 100%;
+	}
+
+	.woods {
+		background-size: 100%;
+	}
+
+	.luke {
+		background-size: 100%;
+	}
+
+	.michael {
+		background-size: 100%;
+	}
+
+	.tim {
+
+		background-size: 100%;
+	}
+
+	.purple-buttons {
+		margin: 0 10% 5% 10%;
+		width: 45%;
+	}
+
+	.cart a {
+		font-size: 18px;
+	}
+
+	.arrow {
+		width: 15%;
+	}
+
+	.sk-ab.sk-Desktop-HD {
+		min-height: 732px;
+		height: auto;
+	}
+
+}
+
+
+@media screen and (min-device-width: 320px) and (max-device-width: 424px) {
+
+	body {
+		margin: 0;
+	}
+
+	ul {
+		display: table;
+		width: 90%;
+		border-bottom: 2px solid white;
+	}
+
+	.page-title {
+		width: 90%;
+		margin: 5%;
+	}
+
+	.page-title h1 {
+		font-size: 24px;
+		text-align: center;
+		width: 100%;
+	}
+
+	h1.black {
+		font-size: 24px;
+		line-height: 1.5em;
+		margin: 5%;
+	}
+
+	#header {
+		width: 100%;
+		height: 280px;
+	}
+
+	.shop-now {
+		display: none;
+	}
+
+	.nav {
+		width: 100%;
+		display: table;
+		text-align: center;
+	}
+
+	.nav a {
+		width: 100%;
+		color: #FFFFFF;
+		font-size: 14px;
+	}
+
+	#third-section img {
+		float: left;
+		width: 80%;
+		padding: 5%;
+		margin: 0 7%;
+		height: 300px;
+	}
+
+	.left-footer h2 {
+		font-size: 22px;
+	}
+
+
+	.about {
+		float: left;
+		font-family: Oswald-Regular;
+		font-size: 48px;
+		color: #FFFFFF;
+		letter-spacing: 1.17px;
+		width: 90%;
+		padding: 5%;
+	}
+
+	.about p {
+		font-size: 18px;
+		font-weight: 300;
+		letter-spacing: 2px;
+		line-height: 1.3em;
+	}
+
+	button.see-all {
+		margin: 0 10%;
+		width: 80%;
+		display: none;
+	}
+
+	#all {
+		float: left;
+		display: block;
+		width: 100%;
+		padding: 0 5%;
+	}
+
+	.shop-now a {
+		background-color: none;
+		float: left;
+		font-family: Oswald-Regular;
+		font-size: 24px;
+		color: #FFFFFF;
+		letter-spacing: 1.17px;
+		background-color: initial;
+		width: 100%;
+	}
+
+	.poster {
+		width: 100%;
+		padding: 0;
+	}
+
+	.new-items{
+		width: 100%;
+		padding: 0 5%;
+	}
+
+	#items, #all {
+		margin: 5% 0 0 0;
+	}
+
+	#all {
+		padding-top: 5%;
+	}
+
+	#items h3 {
+		font-size: 24px;
+	}
+
+	header.landing {
+		margin-top: 40%;
+	}
+
+	.cover {
+	background-size: auto 100%;
+	}
+
+	.woods {
+		background-size: 100%;
+	}
+
+	.luke {
+		background-size: 100%;
+	}
+
+	.michael {
+		background-size: 100%;
+	}
+
+	.tim {
+
+		background-size: 100%;
+	}
+
+	.purple-buttons {
+		margin: 0 10% 5% 10%;
+		width: 45%;
+	}
+
+	.cart a {
+		font-size: 18px;
+	}
+
+	.arrow {
+		width: 15%;
+	}
+
+	.sk-ab.sk-Desktop-HD {
+		min-height: 732px;
+		height: auto;
+	}
+
+}
+
+@media screen and (min-device-width: 425px) and (max-device-width: 767px) {
+
+	body {
+		margin: 0;
+	}
+
+	ul {
+		width: 90%;
+		border-bottom: 2px solid white;
+		margin: 5%;
+		padding: 0;
+		float: right;
+	}
+
+	.page-title h1 {
+		font-size: 24px;
+	}
+
+	#header {
+		width: 100%;
+		height: 320px;
+	}
+
+	.nav {
+		float: right;
+		width: 33%;
+		display: table;
+	}
+
+	.nav a {
+		width: 100%;
+		color: #FFFFFF;
+		font-size: 20px;
+		float: right;
+		text-align: center;
+	}
+
+	#third-section img {
+		float: left;
+		width: 50%;
+		padding: 5%;
+		margin: 0 20%;
+		height: 300px;
+	}
+	.left-footer h2 {
+		font-size: 22px;
+	}
+
+	.about {
+		float: left;
+		font-family: Oswald-Regular;
+		font-size: 28px;
+		color: #FFFFFF;
+		letter-spacing: 1.17px;
+		width: 90%;
+		padding: 5%;
+	}
+
+	.about p {
+		font-size: 18px;
+		font-weight: 300;
+		letter-spacing: 2px;
+		line-height: 1.3em;
+	}
+
+	button.see-all {
+		display: none;
+	}
+
+	#items, #all {
+		display: block;
+		margin: 5% 0 0 0;
+		border: none;
+	}
+
+	.poster {
+		min-width: 85%;
+		height: auto;
+		margin: 5%;
+	}
+
+	.new-items{
+		padding: 5% 0 2% 2%;
+		width: 100%;
+	}
+
+	#items {
+		margin: 5% 0;
+		width: 100%;
+	}
+
+	#items h3 {
+		font-size: 24px;
+	}
+
+	header.landing {
+		margin-top: 40%;
+	}
+
+	.cart a {
+		font-size: 22px;
+	}
+
+	.shop-now {
+		display: none;
+	}
+	
+
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+	#items {
+			margin: 0 5.5%;
+			width: 89%;
+		}
+
+	.poster {
+		width: 29%;
+	}
+
+	.cart a {
+		font-size: 22px;
+	}
+
+	.about {
+		padding: 0;
+	}
+
+	ul {
+		width: 40%;
+	}
+
+	footer ul {
+		border-bottom: none;
+	}
+
+	.sk-ab.sk-Desktop-HD {
+		min-height: 1366px;
+	}
+
+	header.landing {
+		background-size: auto 100%;
+	}
+}
+
+@media screen and (min-device-width: 1440px) and (max-device-width: 3000px){
+
+	#third-section img {
+		margin-left: 5%;
+	}
+
+	#header {
+		height: 700px;
+	}
+
+	.about {
+		margin-right: 5%;
+	}
+
+	.poster {
+		width: 29%;
+	}
+
+	h1 {
+		font-size: 80px;
+	}
+
+	#landing-button a {
+		font-size: 48px;
+	}
+
+	.sk-ab.sk-Desktop-HD {
+		min-height: 1497px;
+	}
+
+}
